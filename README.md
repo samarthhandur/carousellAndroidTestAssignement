@@ -75,4 +75,23 @@ In another terminal, run the test suite:
 ./gradlew clean test
 ```
 
-If successful, you should see the device load the Carousell App and then see tests started running
+#### Automation flow
+If successful, you should see the device load the Carousell App and then see tests started running for the below mentioned flow:
+
+1. Launch the application
+2. Click on Login Button
+3. Reject Single Sign On pop 
+4. Enter valid credentials and click on Log in
+5. Click on Sell button
+6. Add the images for item on "What you are listing today?" page and click NEXT.
+7. Scroll down over Category page until 'Everything Else' and click.
+8. Click 'MISCELLENOUS'
+9. Add listing name as 'CarousellTest'.
+10. Enter price as 25.
+11. Submit the listing
+12. Skip the list sharing by clicking 'MAY BE NEXT TIME' button.
+13. Go to BROWSE screen
+14. Click on 'See All'
+15. Scroll down until 'Everything Else' appears and click.
+16. Assert the item name from step #9 eqauls to the first item name text.
+12. Wait till Succesfull
