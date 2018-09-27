@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.carousell.tests.StartupTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-09-27T11:46:55" hostname="RINMAC182" time="49.105">
+  <properties/>
+  <testcase name="flowTest" classname="com.carousell.tests.StartupTest" time="49.105"/>
+  <system-out><![CDATA[No Success pop up appeared
+]]></system-out>
+  <system-err><![CDATA[Sep 27, 2018 5:16:55 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
