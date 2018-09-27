@@ -93,5 +93,5 @@ If successful, you should see the device load the Carousell App and then see tes
 13. Go to BROWSE screen
 14. Click on 'See All'
 15. Scroll down until 'Everything Else' appears and click.
-16. Assert the item name from step #9 eqauls to the first item name text.
-12. Wait till Succesfull
+16. Assert the item name from step #9 equals to the first item name text.
+
